@@ -160,4 +160,24 @@ header {
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  /* Releases */
+
+.split .container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .split img {
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .split .left,
+  .split .right {
+    flex: 1;
+  }
+  
   
