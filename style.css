@@ -133,3 +133,31 @@ header {
   #about .right {
     flex: 2;
   }
+
+  /* Collaborations */
+
+#collaborations {
+    background: var(--accent-color);
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  #collaborations h2 {
+    text-align: center;
+  }
+  
+  .brands img {
+    width: 120px;
+    border-radius: 50%;
+  }
+  
+  .brands {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
