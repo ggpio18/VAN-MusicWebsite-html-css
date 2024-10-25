@@ -180,4 +180,16 @@ header {
     flex: 1;
   }
   
+  /* Portfolio */
+
+#portfolio {
+    text-align: center;
+  }
+  
+  #portfolio .btn-container {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
   
