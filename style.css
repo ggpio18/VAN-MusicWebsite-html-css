@@ -86,3 +86,31 @@ nav .menu-items {
   color: #fff;
   background: var(--primary-color);
 }
+
+/* Header */
+
+header {
+    margin-top: 83px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    background: url("images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header h1 {
+    font-size: 60px;
+    color: #fff;
+    background: #000;
+    padding: 10px;
+    font-family: "DM Serif Display", serif;
+  }
+  
+  h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 40px;
+    margin-top: 0;
+  }
