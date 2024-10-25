@@ -114,3 +114,22 @@ header {
     font-size: 40px;
     margin-top: 0;
   }
+
+  /* ABout */
+
+#about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  #about .left {
+    flex: 1;
+    font-size: 30px;
+    font-family: "DM Serif Display", serif;
+  }
+  
+  #about .right {
+    flex: 2;
+  }
